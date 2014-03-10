@@ -1,5 +1,3 @@
-grails-spring-security-oauth-google [![Build Status](https://api.travis-ci.org/donbeave/grails-spring-security-oauth-google.png?branch=master)](https://travis-ci.org/donbeave/grails-spring-security-oauth-google)
-====================================
 
 Google extension for [Grails Spring Security OAuth][spring-security-oauth-plugin] plugin
 
@@ -11,8 +9,8 @@ Add the following plugin definition to your BuildConfig:
 // ...
 plugins {
   // ...
-  compile ':spring-security-oauth:2.0.2'
-  compile ':spring-security-oauth-google:0.2'
+  compile ':spring-security-oauth:2.0.1.2'
+  compile ':spring-security-oauth-google:0.1.2'
   // ...
 }
 ```
@@ -71,6 +69,6 @@ Logged with google?
 
 You can look at [bagage's sample app][sample-app].
 
-[spring-security-oauth-plugin]: https://github.com/enr/grails-spring-security-oauth
+[spring-security-oauth-plugin]: https://github.com/nolifelover/grails-spring-security-oauth
 [sample-app]: https://github.com/bagage/grails-google-authentification-example
 
